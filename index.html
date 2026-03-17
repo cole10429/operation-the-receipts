@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE RECEIPTS — What 10 Years of Liberal Government Actually Delivered</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/theme/black.css">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+  :root {
+    --bg-primary: #0a0e17;
+    --bg-card: rgba(255,255,255,0.04);
+    --bg-card-border: rgba(255,255,255,0.08);
+    --red: #e63946;
+    --red-dark: #9d0208;
+    --gold: #d4a843;
+    --gold-dim: rgba(212,168,67,0.6);
+    --ice: #4cc9f0;
+    --green-ironic: #2a9d8f;
+    --white: #e8e8e8;
+    --white-dim: rgba(232,232,232,0.5);
+    --text-muted: rgba(232,232,232,0.35);
+  }
+
+  .reveal-viewport {
+    background: var(--bg-primary);
+    background-image:
+      linear-gradient(rgba(255,255,255,0.012) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255,255,255,0.012) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .reveal {
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-size: 22px;
+    color: var(--white);
+  }
+
+  .reveal h1, .reveal h2, .reveal h3 {
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+  }
+
+  .reveal h1 { font-size: 2.8em; font-weight: 800; color: #fff; }
+  .reveal h2 { font-size: 1.6em; font-weight: 700; color: var(--gold); margin-bottom: 0.4em; }
+  .reveal h3 { font-size: 1.1em; font-weight: 700; color: var(--ice); }
+
+  .reveal .slide-number { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--text-muted); }
+
+  /* Section header bar */
+  .section-bar {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65em;
+    color: var(--gold);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(212,168,67,0.3);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  /* Headline — the talking point */
+  .headline {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+
+  /* Cards */
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--bg-card-border);
+    border-radius: 6px;
+    padding: 20px 24px;
+    text-align: left;
+  }
+  .card-red { border-left: 3px solid var(--red); }
+  .card-green { border-left: 3px solid var(--green-ironic); }
+  .card-gold { border-left: 3px solid var(--gold); }
+  .card-ice { border-left: 3px solid var(--ice); }
+
+  /* Grid layouts */
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+  .grid-2-1 { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+  .grid-1-2 { display: grid; grid-template-columns: 1fr 2fr; gap: 20px; }
+
+  /* Big numbers */
+  .big-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 3.5em;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+  }
+  .big-num.red { color: var(--red); }
+  .big-num.gold { color: var(--gold); }
+  .big-num.ice { color: var(--ice); }
+  .big-num-label {
+    font-size: 0.75em;
+    color: var(--white-dim);
+    margin-top: 4px;
+  }
+
+  /* Flow chains */
+  .flow {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+  }
+  .flow-box {
+    padding: 8px 14px;
+    border-radius: 4px;
+    font-size: 0.7em;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .flow-arrow { color: var(--white-dim); font-size: 1.2em; }
+  .fb-red { background: var(--red); color: #fff; }
+  .fb-gold { background: rgba(212,168,67,0.25); color: var(--gold); border: 1px solid rgba(212,168,67,0.4); }
+  .fb-ice { background: rgba(76,201,240,0.15); color: var(--ice); border: 1px solid rgba(76,201,240,0.3); }
+  .fb-green { background: rgba(42,157,143,0.2); color: var(--green-ironic); border: 1px solid rgba(42,157,143,0.4); }
+  .fb-dark { background: rgba(255,255,255,0.06); color: var(--white); border: 1px solid rgba(255,255,255,0.1); }
+
+  /* Tables */
+  .reveal table {
+    font-size: 0.72em;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .reveal table th {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    border-bottom: 2px solid rgba(212,168,67,0.4);
+    padding: 8px 12px;
+    text-align: left;
+  }
+  .reveal table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.06);
+    text-align: left;
+  }
+  .reveal table .col-red { color: var(--red); font-weight: 700; }
+  .reveal table .col-green { color: var(--green-ironic); }
+
+  /* Quotes */
+  .quote {
+    font-style: italic;
+    font-size: 1.1em;
+    color: var(--gold);
+    border-left: 3px solid var(--gold);
+    padding: 10px 20px;
+    margin: 20px 0;
+  }
+  .quote-attr {
+    font-style: normal;
+    font-size: 0.75em;
+    color: var(--white-dim);
+    margin-top: 6px;
+  }
+
+  /* Stamp */
+  .stamp {
+    display: inline-block;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6em;
+    font-weight: 700;
+    color: var(--red);
+    border: 2px solid var(--red);
+    padding: 4px 12px;
+    letter-spacing: 0.2em;
+    transform: rotate(-3deg);
+    opacity: 0.85;
+  }
+
+  /* Source badges */
+  .sources {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .source-badge {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.55em;
+    color: var(--white-dim);
+    border: 1px solid rgba(255,255,255,0.12);
+    border-radius: 3px;
+    padding: 3px 10px;
+    letter-spacing: 0.05em;
+  }
+
+  /* Detail text */
+  .detail {
+    font-size: 0.68em;
+    color: var(--white-dim);
+    line-height: 1.5;
+    text-align: left;
+  }
+  .detail strong { color: var(--white); }
+  .detail .hl-red { color: var(--red); font-weight: 700; }
+  .detail .hl-gold { color: var(--gold); font-weight: 600; }
+
+  /* Scorecard timeline */
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin: 6px 0;
+    text-align: left;
+  }
+  .timeline-year {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7em;
+    color: var(--gold);
+    min-width: 45px;
+    padding-top: 2px;
+  }
+  .timeline-bar {
+    height: 24px;
+    background: var(--red);
+    border-radius: 2px;
+    opacity: 0.8;
+    flex-shrink: 0;
+  }
+  .timeline-label {
+    font-size: 0.65em;
+    color: var(--white);
+    padding-top: 3px;
+    flex: 1;
+  }
+
+  /* Contrast panels */
+  .panel-said {
+    background: rgba(42,157,143,0.1);
+    border: 1px solid rgba(42,157,143,0.3);
+    border-radius: 6px;
+    padding: 18px 22px;
+  }
+  .panel-did {
+    background: rgba(230,57,70,0.08);
+    border: 1px solid rgba(230,57,70,0.3);
+    border-radius: 6px;
+    padding: 18px 22px;
+  }
+
+  /* Footer */
+  .slide-footer {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.45em;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+    position: absolute;
+    bottom: 16px;
+    left: 30px;
+  }
+
+  /* SVG chart styling */
+  .chart-container { margin: 10px 0; }
+  .chart-container svg text {
+    font-family: 'JetBrains Mono', monospace;
+    fill: var(--white-dim);
+  }
+
+  /* Versus divider */
+  .vs-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 12px 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.6em;
+    color: var(--red);
+    letter-spacing: 0.2em;
+  }
+  .vs-divider::before, .vs-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: rgba(230,57,70,0.3);
+  }
+
+  /* Utility */
+  .text-left { text-align: left; }
+  .text-center { text-align: center; }
+  .text-red { color: var(--red); }
+  .text-gold { color: var(--gold); }
+  .text-ice { color: var(--ice); }
+  .text-dim { color: var(--white-dim); }
+  .text-sm { font-size: 0.75em; }
+  .text-xs { font-size: 0.6em; }
+  .mt-1 { margin-top: 10px; }
+  .mt-2 { margin-top: 20px; }
+  .mb-1 { margin-bottom: 10px; }
+  .fw-800 { font-weight: 800; }
+  .mono { font-family: 'JetBrains Mono', monospace; }
+</style>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<!-- ============================================================ -->
+<!-- SLIDE 1: TITLE -->
+<!-- ============================================================ -->
+<section>
+  <div style="margin-bottom: 30px;">
+    <span class="stamp">DECLASSIFIED: PUBLIC RECORD</span>
+  </div>
+  <h1 style="margin-bottom: 10px;">THE RECEIPTS</h1>
+  <p style="font-size: 1.1em; color: var(--gold); font-weight: 600; margin-bottom: 30px;">
+    What They Did to Your Country While You Weren't Looking
+  </p>
+  <p style="font-size: 0.85em; color: var(--white-dim); margin-bottom: 40px;">
+    Not what they promised you. What they actually did to you.<br>
+    Sourced from their own institutions. Every number verifiable.
+  </p>
+  <div class="sources" style="justify-content: center;">
+    <span class="source-badge">Statistics Canada</span>
+    <span class="source-badge">Parliamentary Budget Officer</span>
+    <span class="source-badge">Parliament.ca</span>
+    <span class="source-badge">Federal Courts of Canada</span>
+    <span class="source-badge">Auditor General</span>
+    <span class="source-badge">Ethics Commissioner</span>
+    <span class="source-badge">Reporters Without Borders</span>
+    <span class="source-badge">Food Banks Canada</span>
+    <span class="source-badge">OECD</span>
+  </div>
+  <div class="slide-footer">OPERATION THE RECEIPTS &bull; 2026 &bull; BRUCE JOSEPH</div>
+  <aside class="notes">
+    Open strong: "Everything in this presentation comes from the government's own data, their own watchdogs, and their own courts. I didn't make any of this up. Neither did they — they just hoped you wouldn't look."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 2: WHO THIS IS FOR -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">WHO THIS IS FOR</div>
+  <div class="headline">
+    This is for every Canadian who trusted them.<br>
+    <span class="text-gold">You funded this. Here's where the money went.</span>
+  </div>
+  <div style="max-width: 700px; margin: 40px auto;">
+    <p style="font-size: 1.3em; font-weight: 800; font-style: italic; text-align: center; line-height: 1.4;">
+      You were sold a brand.<br>
+      <span class="text-red">This deck is the receipt.</span>
+    </p>
+  </div>
+  <div class="card mt-2" style="max-width: 650px; margin: 0 auto;">
+    <p class="detail text-center">
+      Every number is sourced from non-partisan institutions: the PBO, Statistics Canada, the Auditor General, the Ethics Commissioner, federal courts, the OECD, and Food Banks Canada.
+      <br><br>
+      <strong>This is not opinion. This is their own record.</strong>
+    </p>
+  </div>
+  <aside class="notes">
+    Key framing: "This isn't partisan. These are receipts from THEIR OWN institutions. The PBO works for Parliament. StatCan works for Canada. The federal courts answer to no party. Every one of them documented the same pattern."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 3: THE DEBT (NEW) -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE DEBT</div>
+  <div class="headline">
+    They doubled the national debt. Then told you<br>
+    <span class="text-red">it was an investment in your future.</span>
+  </div>
+  <div class="grid-2">
+    <div>
+      <!-- SVG Bar Chart: Debt -->
+      <svg viewBox="0 0 400 280" style="width: 100%;">
+        <text x="10" y="20" font-size="11" fill="#d4a843" font-weight="700">FEDERAL DEBT (ACCUMULATED DEFICIT)</text>
+        <!-- 2015 bar -->
+        <rect x="60" y="120" width="100" height="130" rx="3" fill="#4cc9f0" opacity="0.8"/>
+        <text x="110" y="110" font-size="13" fill="#4cc9f0" text-anchor="middle" font-weight="700">$612B</text>
+        <text x="110" y="268" font-size="10" fill="rgba(232,232,232,0.5)" text-anchor="middle">2015</text>
+        <!-- 2025 bar -->
+        <rect x="220" y="40" width="100" height="210" rx="3" fill="#e63946" opacity="0.85"/>
+        <text x="270" y="268" font-size="10" fill="rgba(232,232,232,0.5)" text-anchor="middle">2025</text>
+        <text x="270" y="34" font-size="15" fill="#e63946" text-anchor="middle" font-weight="800">$1,267B</text>
+        <!-- Arrow + label -->
+        <text x="170" y="70" font-size="22" fill="#e63946" text-anchor="middle" font-weight="800">+107%</text>
+      </svg>
+    </div>
+    <div>
+      <div class="card card-red mb-1">
+        <p class="big-num red" style="font-size: 2.4em;">$654B</p>
+        <p class="big-num-label">added to the national debt in 10 years</p>
+      </div>
+      <div class="card card-gold mb-1">
+        <p style="font-size: 0.8em; margin: 0;">
+          <strong class="text-gold">Debt-to-GDP:</strong> 31.0% &rarr; 41.2%<br>
+          <strong class="text-gold">Per Canadian:</strong> ~$17,000 &rarr; ~$31,000<br>
+          <strong class="text-gold">Pre-COVID deficits:</strong> Every. Single. Year.
+        </p>
+      </div>
+      <div class="detail mt-1">
+        The 2015 platform promised small deficits returning to balance by 2019. They ran deficits <strong>every year before COVID hit</strong>. The pandemic didn't create the habit — it gave them a bigger excuse.
+      </div>
+    </div>
+  </div>
+  <p class="text-xs text-dim mt-1">Source: Finance Canada Annual Financial Reports 2014-15, 2024-25; Fiscal Reference Tables 2025</p>
+  <aside class="notes">
+    Hit: "$654 billion dollars added. That's not a typo. They DOUBLED the national debt. And they were running deficits every year BEFORE COVID — the pandemic was the accelerant, not the cause. They promised balanced budgets by 2019. The 2019-20 deficit was $39.4 billion. Before a single COVID case in Canada."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 4: THE ECONOMY -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE ECONOMY</div>
+  <div class="headline">
+    One job for ten years: make Canadians more prosperous.<br>
+    <span class="text-red">Canada is now poorer than Mississippi.</span>
+  </div>
+  <div class="grid-2">
+    <div>
+      <!-- G7 GDP/capita growth chart -->
+      <svg viewBox="0 0 400 240" style="width: 100%;">
+        <text x="10" y="16" font-size="10" fill="#d4a843" font-weight="700">G7 GDP/CAPITA GROWTH 2010-2024</text>
+        <!-- Bars -->
+        <rect x="20" y="28" width="234" height="24" rx="2" fill="#4cc9f0" opacity="0.8"/>
+        <text x="258" y="45" font-size="10" fill="#4cc9f0" font-weight="700">78% USA</text>
+
+        <rect x="20" y="58" width="111" height="24" rx="2" fill="#4cc9f0" opacity="0.65"/>
+        <text x="135" y="75" font-size="10" fill="#4cc9f0">37% Italy</text>
+
+        <rect x="20" y="88" width="96" height="24" rx="2" fill="#4cc9f0" opacity="0.55"/>
+        <text x="120" y="105" font-size="10" fill="#4cc9f0">32% UK</text>
+
+        <rect x="20" y="118" width="84" height="24" rx="2" fill="#4cc9f0" opacity="0.45"/>
+        <text x="108" y="135" font-size="10" fill="#4cc9f0">28% Germany</text>
+
+        <rect x="20" y="148" width="42" height="24" rx="2" fill="#4cc9f0" opacity="0.35"/>
+        <text x="66" y="165" font-size="10" fill="rgba(232,232,232,0.5)">14% France</text>
+
+        <rect x="20" y="178" width="39" height="24" rx="2" fill="#e63946" opacity="0.9"/>
+        <text x="63" y="195" font-size="10" fill="#e63946" font-weight="700">13% CANADA</text>
+
+        <rect x="20" y="208" width="4" height="24" rx="2" fill="rgba(76,201,240,0.3)"/>
+        <text x="28" y="225" font-size="10" fill="rgba(232,232,232,0.35)">-27% Japan</text>
+      </svg>
+    </div>
+    <div>
+      <div class="card card-red mb-1">
+        <p class="detail">
+          <span class="hl-red">Five consecutive quarters</span> of GDP per capita decline — documented by Statistics Canada, April 2024. <strong>More than a year before any US tariff.</strong>
+        </p>
+      </div>
+      <div class="card card-ice mb-1">
+        <p class="detail">
+          <span class="text-ice">OECD projection:</span> Canada will be the <strong>slowest-growing economy</strong> among 30 advanced nations through 2060. Not tariffs. Structural choices.
+        </p>
+      </div>
+      <div class="card mb-1">
+        <p class="detail">
+          Canada's per-capita income is now <span class="hl-red">~63% of the American figure</span>, down from ~98% in 2010. Poorer per person than Mississippi — the poorest US state.
+        </p>
+      </div>
+      <div class="detail mt-1">
+        Budget 2025 admits: productivity growth <strong>0.3%/year</strong> — <em>"less than one-third the pace of the previous two decades."</em>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "Canada is now poorer per person than Mississippi. Let that land. The poorest American state has higher GDP per capita than Canada. And the OECD says we'll be dead last in growth through 2060. This isn't Trump's tariffs — the decline was documented a full year before any tariff hit. Their own budget admits productivity growth was one-third what it was before they took office."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 5: HOUSING -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">HOUSING</div>
+  <div class="headline">
+    Your kid can't afford a house. They knew this would happen.<br>
+    <span class="text-red">They had the numbers. They raised the targets anyway.</span>
+  </div>
+  <div class="grid-2">
+    <div>
+      <div class="card card-red mb-1">
+        <p class="big-num red" style="font-size: 2em;">+81%</p>
+        <p class="big-num-label">home price increase, 2015 to peak (Feb 2022)</p>
+        <p class="detail mt-1">$456,186 &rarr; $827,600 at peak. Still <span class="hl-red">+47%</span> after correction ($673,335 in Dec 2024).</p>
+      </div>
+      <div class="card card-ice">
+        <p class="detail">
+          <strong class="text-ice">2023 population growth:</strong> 1,271,000 people — one Calgary in 12 months. Fastest growth in 66 years.<br><br>
+          <strong class="text-ice">2024 housing starts:</strong> 245,367. At 2.47 people/household, that houses ~606,000.<br><br>
+          <span class="hl-red">Gap: 665,000 people with nowhere to live. Every year.</span>
+        </p>
+      </div>
+    </div>
+    <div>
+      <div class="card card-gold mb-1">
+        <p class="detail">
+          <strong class="text-gold">PBO (April 2024):</strong> Canada needs <strong>436,000 housing completions/year</strong> — 80% above record pace — just to close the gap by 2030.<br><br>
+          <strong class="text-gold">CMHC (June 2024):</strong> Up to <strong>4.8 million homes</strong> needed. Current rate: 57-60% of minimum.
+        </p>
+      </div>
+      <div class="card card-red">
+        <p class="big-num red" style="font-size: 2em;">2.4M</p>
+        <p class="big-num-label">households in core housing need</p>
+        <p class="detail mt-1">
+          Up from 1.47M when the National Housing Strategy launched in 2017. The strategy ran for <strong>seven years</strong>. The problem got <span class="hl-red">63% worse</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "They added 1.27 million people in one year — a city the size of Calgary — and built enough housing for 606,000 of them. Every year, 665,000 people with nowhere to live. Their own National Housing Strategy ran for seven years and the problem got 63% WORSE. They knew the math. The data was public. They raised the targets anyway."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 6: THE MODEL -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE MODEL — WHO GOT RICHER WHILE YOU GOT POORER</div>
+  <div class="headline">
+    Asset owners doubled their wealth. Workers ran faster to stand still.<br>
+    <span class="text-red">You weren't failed. You were the fuel.</span>
+  </div>
+  <div style="margin: 20px 0;">
+    <div class="flow mb-1">
+      <span class="flow-box fb-ice">Population surge</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-ice">Housing demand</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-red">Prices +81%</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-green">ASSET OWNERS WIN</span>
+    </div>
+    <div class="flow mb-1">
+      <span class="flow-box fb-ice">TFW expansion +286%</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-ice">Labour supply floods</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-red">Wages flat</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-red">WORKERS LOSE</span>
+    </div>
+    <div class="flow">
+      <span class="flow-box fb-green">GDP total up</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-red">GDP per capita down</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-gold">Headline looks fine</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-red">You feel it anyway</span>
+    </div>
+  </div>
+  <div class="grid-2 mt-2">
+    <div class="card card-ice">
+      <p class="detail">
+        <strong class="text-ice">TFW applications:</strong> 248,590 (2015) &rarr; 959,373 (2023) — <span class="hl-red">+286%</span>. This reversed Conservative 2014 reforms designed to protect Canadian wages.<br><br>
+        <strong>IZA Institute (2025):</strong> Restricting TFWP access caused <strong>3.7-4.5% wage increases</strong>. The Liberals reversed those restrictions.
+      </p>
+    </div>
+    <div class="card card-red">
+      <p class="detail">
+        <strong>Real GDP per capita (constant 2017$):</strong><br>
+        $60,735 (2022 peak) &rarr; $59,738 (2024)<br><br>
+        Household expenditures per capita: <span class="hl-red">-0.6% in 2024</span><br><br>
+        The rich got richer. You got the receipt.
+      </p>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "Here's the model. Flood the country with people — housing demand skyrockets — prices go up 81% — anyone who owned a house in 2015 doubled their wealth. Meanwhile, flood the labour market with TFWs — applications up 286% — wages stay flat. GDP headline looks fine because there are more people. GDP per capita — the number that actually measures YOUR prosperity — went DOWN. The rich got richer. You got the receipt."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 7: THE CARBON TAX -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE CARBON TAX</div>
+  <div class="headline">
+    They told you 8 in 10 households came out ahead.<br>
+    <span class="text-red">Their own watchdog published the other half. They tried to gag him.</span>
+  </div>
+  <div class="grid-2">
+    <div class="panel-said">
+      <h3 style="color: var(--green-ironic);">WHAT GOVERNMENT SAID</h3>
+      <p style="font-size: 1.3em; font-weight: 700; margin: 16px 0;">"8 in 10 households come out ahead"</p>
+      <p class="detail">Direct rebate calculation only. This is technically accurate for the narrow fiscal measure.</p>
+    </div>
+    <div class="panel-did">
+      <h3 style="color: var(--red);">WHAT PBO ALSO FOUND</h3>
+      <p style="font-size: 1.1em; font-weight: 700; margin: 16px 0;">Majority of households face <span class="text-red">net cost</span> when fiscal + economic effects included</p>
+      <p class="detail">Reduced wages, reduced investment, lower GDP. <strong>Same PBO report. Different half.</strong></p>
+    </div>
+  </div>
+  <div class="vs-divider mt-1">SAME REPORT — DIFFERENT HALF</div>
+  <div class="card card-red mt-1">
+    <p class="detail">
+      <span class="hl-red">THE GAG ORDER:</span> Environment Minister Guilbeault's office sent the PBO data marked <strong>"internal purposes only"</strong> with an explicit directive not to disclose it. PBO Fiscal Officer Yves Giroux testified the government <em>"put a gag"</em> on his office. Deputy Minister Jean-Fran&ccedil;ois Tremblay confirmed the restriction in a May 14, 2023 letter. <strong>They didn't just cherry-pick the data. They tried to bury it.</strong>
+    </p>
+  </div>
+  <aside class="notes">
+    Hit: "Same PBO report. Different half. They told you 8 in 10 come out ahead — based on the direct rebate only. The same report showed the majority of Canadians face a NET COST when you include the economic damage. And when the PBO tried to publish that? Guilbeault's office sent a gag order. Marked the data 'internal purposes only.' The PBO testified under oath that the government put a gag on his office. They didn't just cherry-pick — they tried to bury it."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 8: FOOD BANKS vs FOREIGN AID -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">WHILE YOU WENT TO THE FOOD BANK, THEY SENT BILLIONS ABROAD</div>
+  <div class="headline">
+    2 million Canadians in the food bank line. 10 million food-insecure.<br>
+    <span class="text-red">$23.5 billion committed to Ukraine.</span>
+  </div>
+  <div class="grid-2">
+    <div>
+      <svg viewBox="0 0 380 230" style="width: 100%;">
+        <text x="10" y="16" font-size="10" fill="#d4a843" font-weight="700">FOOD BANK VISITS — CANADA</text>
+        <!-- Bars -->
+        <rect x="20" y="145" width="55" height="70" rx="2" fill="#e63946" opacity="0.5"/>
+        <text x="47" y="138" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">1.22M</text>
+        <text x="47" y="225" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">2015</text>
+
+        <rect x="90" y="155" width="55" height="60" rx="2" fill="#e63946" opacity="0.5"/>
+        <text x="117" y="148" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">1.09M</text>
+        <text x="117" y="225" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">2019</text>
+
+        <rect x="160" y="75" width="55" height="140" rx="2" fill="#e63946" opacity="0.7"/>
+        <text x="187" y="68" font-size="9" fill="#e63946" text-anchor="middle">1.94M</text>
+        <text x="187" y="225" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">2023</text>
+
+        <rect x="230" y="55" width="55" height="160" rx="2" fill="#e63946" opacity="0.85"/>
+        <text x="257" y="48" font-size="9" fill="#e63946" text-anchor="middle" font-weight="700">2.06M</text>
+        <text x="257" y="225" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">2024</text>
+
+        <rect x="300" y="45" width="55" height="170" rx="2" fill="#e63946" opacity="1"/>
+        <text x="327" y="38" font-size="9" fill="#e63946" text-anchor="middle" font-weight="700">2.17M</text>
+        <text x="327" y="225" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">2025</text>
+      </svg>
+      <p class="detail">
+        <strong>681,450</strong> of those visits: children.<br>
+        <strong>18.1%</strong> of food bank clients are <em>employed</em> — all-time high.<br>
+        <strong>25.5%</strong> of Canadians (10M people) food-insecure in 2024.
+      </p>
+    </div>
+    <div>
+      <svg viewBox="0 0 350 200" style="width: 100%;">
+        <text x="10" y="16" font-size="10" fill="#d4a843" font-weight="700">WHERE THE MONEY WENT INSTEAD</text>
+        <!-- Ukraine bar -->
+        <rect x="30" y="30" width="90" height="155" rx="3" fill="#4cc9f0" opacity="0.7"/>
+        <text x="75" y="55" font-size="14" fill="#fff" text-anchor="middle" font-weight="800">$23.5B</text>
+        <text x="75" y="195" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">Ukraine</text>
+        <!-- ODA bar -->
+        <rect x="140" y="70" width="90" height="115" rx="3" fill="#4cc9f0" opacity="0.5"/>
+        <text x="185" y="90" font-size="12" fill="#fff" text-anchor="middle" font-weight="700">$12.3B</text>
+        <text x="185" y="195" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">ODA/yr</text>
+        <!-- Reaching Home bar -->
+        <rect x="250" y="178" width="90" height="7" rx="2" fill="#e63946"/>
+        <text x="295" y="175" font-size="10" fill="#e63946" text-anchor="middle" font-weight="700">$0.45B</text>
+        <text x="295" y="195" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">Reaching Home/yr</text>
+      </svg>
+      <div class="card card-red mt-1">
+        <p class="detail">
+          <strong class="text-red">Reaching Home</strong> (federal homelessness program): entire 9-year budget is less than <strong>one block</strong> of the Ukraine commitment. The bar is barely visible. That's the point.
+        </p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "Two million Canadians visited food banks in March 2024. The highest number in history. 681,000 of those were children. 18% of food bank users HAVE JOBS — they're working and still can't eat. Meanwhile, $23.5 billion committed to Ukraine. $12.3 billion a year in foreign aid. The entire 9-year federal homelessness budget is smaller than one block of the Ukraine commitment. Look at the chart. That red bar at the bottom? That's what they spent on YOUR homelessness."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 8.5: THE PERSONAL COST (NEW - Kitchen Table) -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE COST OF LIVING — YOUR LIFE IN 2026</div>
+  <div class="headline">
+    This is what 10 years of policy failure looks like<br>
+    <span class="text-red">at your kitchen table.</span>
+  </div>
+  <table style="margin: 15px 0; font-size: 0.85em;">
+    <thead>
+      <tr><th></th><th style="color: var(--ice);">2015</th><th style="color: var(--red);">2025-26</th><th style="color: var(--red);">CHANGE</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Average home price</strong></td><td>$456,186</td><td class="col-red">$673,335</td><td class="col-red">+47%</td></tr>
+      <tr><td><strong>Average rent (1BR, national)</strong></td><td>~$900/mo</td><td class="col-red">~$1,850/mo</td><td class="col-red">+106%</td></tr>
+      <tr><td><strong>Groceries (family of 4, monthly)</strong></td><td>~$850</td><td class="col-red">~$1,400</td><td class="col-red">+65%</td></tr>
+      <tr><td><strong>Gas per litre</strong></td><td>~$1.05</td><td class="col-red">~$1.65</td><td class="col-red">+57%</td></tr>
+      <tr><td><strong>Federal debt per Canadian</strong></td><td>~$17,000</td><td class="col-red">~$31,000</td><td class="col-red">+82%</td></tr>
+      <tr><td><strong>Your real income (inflation-adjusted)</strong></td><td colspan="2" style="text-align: center; color: var(--white-dim);">Essentially flat</td><td class="col-red">~0%</td></tr>
+    </tbody>
+  </table>
+  <div style="text-align: center; margin: 25px 0;">
+    <p style="font-size: 1.4em; font-weight: 800; color: #fff;">
+      Your income didn't double.<br>
+      <span class="text-red">Everything else did.</span>
+    </p>
+  </div>
+  <div class="card card-red" style="max-width: 650px; margin: 0 auto;">
+    <p class="detail text-center">
+      These aren't economic abstractions. This is your grocery bill. Your rent cheque. Your gas tank. Your kid's future. <strong>You feel this every single day.</strong> And the people who did this to you just asked for your vote again.
+    </p>
+  </div>
+  <aside class="notes">
+    Hit: "Forget the GDP charts for a second. This is YOUR kitchen table. Rent doubled. Groceries up 65%. Gas up 57%. Your debt per person went from $17,000 to $31,000. And your real income? Flat. You didn't get a raise that kept up with any of this. Your income didn't double. Everything else did. You feel this every time you go to the grocery store. Every time you fill up your tank. Every time your kid tells you they'll never afford a house. That's not a statistic. That's your life. And the people who did this just asked for your vote again."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 9: THE ETHICS FILE (NEW) -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE ETHICS FILE</div>
+  <div class="headline">
+    Two ethics violations. A $912M program funneled to family friends.<br>
+    <span class="text-red">An $80,000 app that cost $59.5 million.</span>
+  </div>
+  <div class="grid-3">
+    <div class="card card-red">
+      <h3 style="color: var(--red); font-size: 0.85em;">SNC-LAVALIN</h3>
+      <p class="detail" style="margin-top: 10px;">
+        PM <span class="hl-red">violated s.9 of the Conflict of Interest Act</span> — his <strong>second</strong> ethics violation.<br><br>
+        Pressured AG Jody Wilson-Raybould to grant SNC a deferred prosecution deal. She refused. She was shuffled, then expelled from caucus.<br><br>
+        Ethics Commissioner: Trudeau <em>"sought to further SNC-Lavalin's private interests."</em>
+      </p>
+      <p class="text-xs text-dim mt-1">Source: Ethics Commissioner "Trudeau II" Aug 2019</p>
+    </div>
+    <div class="card card-gold">
+      <h3 style="color: var(--gold); font-size: 0.85em;">WE CHARITY</h3>
+      <p class="detail" style="margin-top: 10px;">
+        <strong>$912M</strong> student program awarded to WE. <strong>$43M</strong> in admin fees.<br><br>
+        WE paid PM's family <span class="hl-red">~$425,000</span>:<br>
+        &bull; Mother (Margaret): ~$250K<br>
+        &bull; Brother (Alexandre): ~$32K<br>
+        &bull; Expenses: ~$200K+<br><br>
+        Finance Minister Morneau took a <strong>$41K vacation</strong> from WE. Breached the Act.
+      </p>
+      <p class="text-xs text-dim mt-1">Source: Ethics Commissioner May 2021; Kielburger testimony</p>
+    </div>
+    <div class="card card-ice">
+      <h3 style="color: var(--ice); font-size: 0.85em;">ARRIVECAN</h3>
+      <p class="detail" style="margin-top: 10px;">
+        Original estimate: <strong>$80,000</strong><br>
+        Final cost: <span class="hl-red">$59.5 million</span><br>
+        Multiplier: <strong>744x</strong><br><br>
+        AG: cost <em>"impossible to determine"</em> — records so bad they can't even confirm how much was spent.<br><br>
+        <strong>10,000 travellers</strong> wrongly told to quarantine. Contractor suspended 7 years.
+      </p>
+      <p class="text-xs text-dim mt-1">Source: Auditor General Report, Feb 2024</p>
+    </div>
+  </div>
+  <p class="text-center text-red mt-1 mono" style="font-size: 0.8em; font-weight: 700;">YOUR MONEY. THEIR FRIENDS. ZERO CONSEQUENCES.</p>
+  <aside class="notes">
+    Hit: "SNC-Lavalin: he fired the Attorney General of Canada because she wouldn't bend the law for a Quebec construction company. Ethics Commissioner found he violated the Conflict of Interest Act — for the SECOND time. WE Charity: a $912 million program handed to an organization that paid his mother $250,000. ArriveCAN: an app that should have cost $80,000 became $59.5 million — that's a 744x cost overrun. The Auditor General said they can't even confirm how much was spent because the records are so bad. Three scandals. Zero consequences. Nobody resigned."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 10: THE INFRASTRUCTURE BANK (NEW) -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE INFRASTRUCTURE BANK</div>
+  <div class="headline">
+    $35 billion mandate. Seven years.<br>
+    <span class="text-red">Five completed projects.</span>
+  </div>
+  <div class="grid-2" style="align-items: center;">
+    <div style="text-align: center;">
+      <p class="big-num gold" style="font-size: 3em;">$35B</p>
+      <p class="big-num-label">mandate to "attract private investment"</p>
+      <div style="margin: 30px 0; font-size: 3em;">&#8595;</div>
+      <p class="big-num red" style="font-size: 4em;">5</p>
+      <p class="big-num-label">completed projects in 7 years</p>
+    </div>
+    <div>
+      <div class="card card-red mb-1">
+        <p class="detail">
+          <span class="hl-red">PBO finding:</span> Projects to date have been <em>"exclusively funded by federal, provincial, and municipal levels of government."</em><br><br>
+          <strong>The entire point was to leverage private capital. Zero private leverage documented.</strong>
+        </p>
+      </div>
+      <div class="card card-gold mb-1">
+        <p class="detail">
+          <strong class="text-gold">18%</strong> of accelerated projects achieved financial close by end of 2024-25.<br><br>
+          When the PBO asked for detailed information, the CIB cited <em>"confidentiality issues."</em> The PBO disputed this.
+        </p>
+      </div>
+      <div class="card">
+        <p class="detail">
+          Created in 2017 to do one thing: get private money into public infrastructure. After seven years and $35 billion in mandate, they built five things — <strong>with government money only</strong>. The private sector wouldn't touch it.
+        </p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "The Canada Infrastructure Bank. $35 billion mandate. Its ENTIRE purpose was to attract private investment into public infrastructure. Seven years later: five completed projects. And the PBO found that every single one was funded exclusively by government — federal, provincial, municipal. Zero private money. The private sector looked at it and said no. When the PBO asked for details, the CIB said 'confidentiality.' They hid the receipts."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 11: YOUR TAX DOLLARS -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">YOUR TAX DOLLARS AT WORK</div>
+  <div class="headline">
+    The federal bureaucracy grew 40%. Average compensation: $172,000.<br>
+    <span class="text-red">DEI spending grew 10,152%.</span>
+  </div>
+  <div class="grid-2">
+    <div>
+      <div class="card card-ice mb-1">
+        <h3 style="font-size: 0.8em;">PUBLIC SERVICE GROWTH</h3>
+        <p class="detail mt-1">
+          <strong class="text-ice">Core public service:</strong> ~195,000 &rarr; ~274,000 (<span class="hl-red">+40.4%</span>)<br><br>
+          <strong class="text-ice">Broader federal employees:</strong> +110,000 new positions<br><br>
+          <strong class="text-ice">Total personnel spending:</strong> <span class="hl-red">$71.1 billion/year</span> (2024-25)<br><br>
+          <strong class="text-ice">Avg total compensation per FTE:</strong> ~$172,000 (projected 2029-30)<br><br>
+          <strong class="text-ice">Public sector hourly premium over private:</strong> <span class="hl-red">27%</span>
+        </p>
+      </div>
+      <div class="card">
+        <p class="detail">
+          <strong>Labour productivity in the government sector:</strong> <span class="hl-red">fell 0.3% annually</span> since 2015. Private sector rose 0.5%. More people. Less output. More money.
+        </p>
+      </div>
+    </div>
+    <div>
+      <div class="card card-red mb-1">
+        <h3 style="font-size: 0.8em; color: var(--red);">DEI SPENDING</h3>
+        <svg viewBox="0 0 300 180" style="width: 100%;">
+          <text x="10" y="16" font-size="9" fill="#d4a843" font-weight="700">TREASURY BOARD DEI SPENDING</text>
+          <!-- 2016 bar (tiny) -->
+          <rect x="40" y="155" width="80" height="3" rx="1" fill="#e63946" opacity="0.6"/>
+          <text x="80" y="150" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">$111K</text>
+          <text x="80" y="175" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">2016</text>
+          <!-- 2023 bar (massive) -->
+          <rect x="170" y="28" width="80" height="130" rx="2" fill="#e63946" opacity="0.9"/>
+          <text x="210" y="50" font-size="11" fill="#fff" text-anchor="middle" font-weight="800">$11.9M</text>
+          <text x="210" y="175" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">2023</text>
+        </svg>
+        <p class="text-center text-red mono fw-800" style="font-size: 1.3em;">+10,152%</p>
+      </div>
+      <div class="card">
+        <p class="detail">
+          <strong>96 FTE</strong> positions dedicated to equity/inclusion roles.<br>
+          <strong>Chief Equity Officer:</strong> $202,900-$238,000 salary band.<br>
+          <strong>Canadian Heritage Diversity budget:</strong> $281.7M (2025-26).<br><br>
+          Same period: food bank visits <span class="hl-red">+69%</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "The federal government added 110,000 new employees. Average total compensation heading to $172,000. Government workers make 27% more per hour than private sector. And the productivity of the government sector FELL 0.3% per year. More people, paid more, doing less. Meanwhile, Treasury Board DEI spending went from $111,000 to $11.9 million — a 10,152% increase. They created 96 full-time equity positions and a Chief Equity Officer making up to $238,000. In the same period, food bank visits went up 69%."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 12: THE LAWS -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE LAWS — FOUR BILLS, ONE DIRECTION</div>
+  <div class="headline">
+    Four bills. One target:<br>
+    <span class="text-red">Your speech. Your guns. Your news. Your content. All in 12 months.</span>
+  </div>
+  <div style="margin: 20px 0;">
+    <!-- Timeline -->
+    <svg viewBox="0 0 800 80" style="width: 100%;">
+      <line x1="50" y1="40" x2="750" y2="40" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+      <!-- C-11 -->
+      <circle cx="130" cy="40" r="8" fill="#4cc9f0"/>
+      <text x="130" y="20" font-size="11" fill="#4cc9f0" text-anchor="middle" font-weight="700">C-11</text>
+      <text x="130" y="65" font-size="9" fill="rgba(232,232,232,0.4)" text-anchor="middle">Apr 2023</text>
+      <!-- C-21 -->
+      <circle cx="330" cy="40" r="8" fill="#d4a843"/>
+      <text x="330" y="20" font-size="11" fill="#d4a843" text-anchor="middle" font-weight="700">C-21</text>
+      <text x="330" y="65" font-size="9" fill="rgba(232,232,232,0.4)" text-anchor="middle">May 2023</text>
+      <!-- C-18 -->
+      <circle cx="500" cy="40" r="8" fill="#4cc9f0"/>
+      <text x="500" y="20" font-size="11" fill="#4cc9f0" text-anchor="middle" font-weight="700">C-18</text>
+      <text x="500" y="65" font-size="9" fill="rgba(232,232,232,0.4)" text-anchor="middle">Jun 2023</text>
+      <!-- C-63 -->
+      <circle cx="680" cy="40" r="8" fill="#e63946"/>
+      <text x="680" y="20" font-size="11" fill="#e63946" text-anchor="middle" font-weight="700">C-63</text>
+      <text x="680" y="65" font-size="9" fill="rgba(232,232,232,0.4)" text-anchor="middle">Feb 2024</text>
+    </svg>
+  </div>
+  <div class="grid-2">
+    <div>
+      <div class="card card-ice mb-1">
+        <p class="detail">
+          <strong class="text-ice">C-11 — Online Streaming Act:</strong> CRTC Chair confirmed under oath that Section 4.2 gives authority to regulate <strong>user-uploaded content</strong> and require algorithmic changes. Government said users were not the target. <span class="hl-red">The bill text said otherwise.</span>
+        </p>
+      </div>
+      <div class="card card-gold">
+        <p class="detail">
+          <strong class="text-gold">C-21 — Firearms Amendment:</strong> Sold as a handgun freeze. Delivered <strong>expansion of regulatory classification authority</strong> beyond stated scope. Legal experts documented the gap at committee.
+        </p>
+      </div>
+    </div>
+    <div>
+      <div class="card card-ice mb-1">
+        <p class="detail">
+          <strong class="text-ice">C-18 — Online News Act:</strong> Mandatory payment to legacy media. Distribution formula favors Postmedia, Torstar, Globe. News Media Canada held <strong>52 meetings</strong> with ministers. Meta blocked all Canadian news. Google settled at <span class="hl-red">$100M/yr — 41% below</span> gov't estimate.
+        </p>
+      </div>
+      <div class="card card-red">
+        <p class="detail">
+          <strong class="text-red">C-63 — Online Harms Act:</strong> Anonymous speech complaints. <strong>Pre-crime peace bonds</strong>. Life sentences for hate-motivated offences. New Digital Safety Commission. Opposed by CCLA, BCCLA, 40+ civil society groups. Died when Parliament prorogued.
+        </p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "Four bills in 12 months. C-11: the CRTC Chair admitted under oath it gives them power over your content. C-18: mandatory payments to legacy media — the same outlets that give them friendly coverage. C-21: sold as a handgun freeze, actually expanded regulatory power way beyond that. C-63: pre-crime peace bonds. Anonymous complaints. Life sentences. 40+ civil liberties groups opposed it. Four different domains — streaming, firearms, news, speech — one direction: more state power."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 13: THE TRAJECTORY -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE TRAJECTORY — C-63 TO C-9 TO C-22</div>
+  <div class="headline">
+    C-63 died. Nine months later, its children arrived.<br>
+    <span class="text-red">The mechanism is the same. The direction has not changed.</span>
+  </div>
+  <div style="margin: 15px 0;">
+    <svg viewBox="0 0 800 70" style="width: 100%;">
+      <line x1="50" y1="35" x2="750" y2="35" stroke="rgba(230,57,70,0.4)" stroke-width="2"/>
+      <circle cx="120" cy="35" r="7" fill="#e63946"/>
+      <text x="120" y="18" font-size="10" fill="#e63946" text-anchor="middle" font-weight="700">C-63</text>
+      <text x="120" y="58" font-size="9" fill="rgba(232,232,232,0.4)" text-anchor="middle">Feb 2024</text>
+
+      <circle cx="310" cy="35" r="7" fill="rgba(230,57,70,0.5)"/>
+      <text x="310" y="18" font-size="9" fill="rgba(232,232,232,0.5)" text-anchor="middle">DIED</text>
+      <text x="310" y="58" font-size="9" fill="rgba(232,232,232,0.4)" text-anchor="middle">Jan 2025</text>
+
+      <circle cx="520" cy="35" r="7" fill="#e63946"/>
+      <text x="520" y="18" font-size="10" fill="#e63946" text-anchor="middle" font-weight="700">C-9</text>
+      <text x="520" y="58" font-size="9" fill="rgba(232,232,232,0.4)" text-anchor="middle">Sep 2025</text>
+
+      <circle cx="700" cy="35" r="7" fill="#e63946"/>
+      <text x="700" y="18" font-size="10" fill="#e63946" text-anchor="middle" font-weight="700">C-22</text>
+      <text x="700" y="58" font-size="9" fill="rgba(232,232,232,0.4)" text-anchor="middle">Mar 2026</text>
+    </svg>
+  </div>
+  <div class="grid-2">
+    <div class="card card-red mb-1">
+      <h3 style="font-size: 0.8em; color: var(--red);">BILL C-9 — COMBATTING HATE ACT</h3>
+      <p class="detail mt-1">
+        &bull; <strong>Removes AG consent requirement</strong> for hate propaganda charges — police lay charges directly, no federal oversight<br><br>
+        &bull; New standalone hate crime offence with <strong>sentencing escalation to life</strong> for 14+ year maximum offences<br><br>
+        &bull; Codified "hatred" definition using <span class="hl-red">"or" not "and"</span> — <strong>lowering the threshold</strong> below the Keegstra/Whatcott standard
+      </p>
+    </div>
+    <div class="card card-red mb-1">
+      <h3 style="font-size: 0.8em; color: var(--red);">BILL C-22 — LAWFUL ACCESS ACT</h3>
+      <p class="detail mt-1">
+        &bull; Police and CSIS get tools to <strong>compel telecoms</strong> to confirm suspect service use<br><br>
+        &bull; Law enforcement can obtain <strong>IP addresses</strong> of suspects<br><br>
+        &bull; Government can require providers to maintain <strong>geographic tracking capability</strong><br><br>
+        &bull; <strong>Metadata retention up to 1 year</strong> via regulation<br><br>
+        &bull; Michael Geist / Citizen Lab: <em>"dangerous backdoor surveillance risks"</em>
+      </p>
+    </div>
+  </div>
+  <div class="card" style="border: 1px solid rgba(230,57,70,0.4);">
+    <p class="detail text-center">
+      <strong class="text-red">UK parallel:</strong> 65,000+ speech-related arrests since 2017. 6,000/yr &rarr; 12,183/yr. <strong>That's where this road leads.</strong>
+    </p>
+  </div>
+  <aside class="notes">
+    Hit: "C-63 proposed pre-crime peace bonds and anonymous speech complaints. 40+ civil liberties groups opposed it. It died when Parliament prorogued. Nine months later: C-9. Removes the requirement for the Attorney General to approve hate propaganda charges — now police can charge you directly. Lowers the legal definition of hatred. And C-22: the Lawful Access Act — telecoms can be compelled to track your location, retain your metadata for a year, and hand over your IP address. Michael Geist calls it 'dangerous backdoor surveillance.' In the UK, this playbook produced 65,000 speech arrests. That's where this road goes."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 14: THE EMERGENCIES ACT -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE EMERGENCIES ACT — OTTAWA 2022</div>
+  <div class="headline">
+    They reached into Canadians' bank accounts without court orders.<br>
+    <span class="text-red">Two courts said it was unconstitutional.</span>
+  </div>
+  <div class="grid-2" style="margin-top: 20px;">
+    <div class="panel-said">
+      <h3 style="color: var(--green-ironic); font-size: 0.85em;">ROULEAU COMMISSION</h3>
+      <p style="font-size: 1.2em; font-weight: 700; color: var(--green-ironic); margin: 12px 0;">JUSTIFIED</p>
+      <p class="detail">
+        Accepted factual basis for emergency. Found invocation justified in February 2023.
+      </p>
+    </div>
+    <div class="panel-did">
+      <h3 style="color: var(--red); font-size: 0.85em;">FEDERAL COURT + COURT OF APPEAL</h3>
+      <p style="font-size: 1.2em; font-weight: 700; color: var(--red); margin: 12px 0;">UNCONSTITUTIONAL</p>
+      <p class="detail">
+        January 2024: invocation unreasonable.<br>
+        January 2026: upheld, <em>ultra vires</em>.<br>
+        Charter sections 2(b) and 8 violated.
+      </p>
+    </div>
+  </div>
+  <div style="text-align: center; margin: 20px 0;">
+    <p class="big-num red" style="font-size: 3.5em;">257</p>
+    <p class="big-num-label" style="font-size: 0.9em;">bank accounts frozen. No judge. No trial. No warning.</p>
+  </div>
+  <div class="card card-red">
+    <p class="detail">
+      RCMP officers shared names with financial institutions <strong>without applying an objective standard</strong> (Justice Mosley, 2024 FC 42). Finance Minister Freeland announced it publicly as a <strong>tool of deterrence</strong>. ~$7.8 million frozen. <span class="hl-red">No individual judicial review.</span>
+    </p>
+  </div>
+  <aside class="notes">
+    Hit: "257 bank accounts frozen. No court order. No individual review. RCMP shared names with banks without even applying an objective standard — the judge's words, not mine. Chrystia Freeland went on national television and announced it as a deterrent. Two federal courts — trial and appeal — ruled it unconstitutional. Ultra vires. Charter sections 2(b) and 8 violated. The government-appointed commission said it was fine. The courts said it was illegal. The courts outrank a commission."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 15: EMERGENCY POWERS COMPARISON -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">EMERGENCY POWERS — THE DOCUMENTED COMPARISON</div>
+  <div class="headline">
+    After 1970, Parliament said "never again." In 2022, they did it anyway.<br>
+    <span class="text-red">Tommy Douglas was called a traitor for opposing it. Two courts just proved him right.</span>
+  </div>
+  <table style="margin: 20px 0;">
+    <thead>
+      <tr><th></th><th>1970 — WAR MEASURES</th><th>2022 — EMERGENCIES ACT</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Trigger</strong></td><td>FLQ kidnapping + murder</td><td>Convoy occupation + border blockades</td></tr>
+      <tr><td><strong>Rights affected</strong></td><td>Habeas corpus suspended</td><td class="col-red">Charter s.2(b) and s.8 violated</td></tr>
+      <tr><td><strong>Affected</strong></td><td>497 arrested; 435 no charges</td><td>~257 accounts frozen</td></tr>
+      <tr><td><strong>Legal verdict</strong></td><td>No challenge</td><td class="col-red">2024 FC / 2026 FCA: unconstitutional</td></tr>
+    </tbody>
+  </table>
+  <div class="quote">
+    "The government... is using a sledgehammer to crack a peanut."
+    <div class="quote-attr">— Tommy Douglas, 1970. Vilified for saying it. Vindicated by two courts, 54 years later.</div>
+  </div>
+  <div class="detail mt-1">
+    The Emergencies Act was written in 1988 explicitly to <strong>constrain executive power</strong> after the War Measures Act abuses. The Federal Court of Appeal (2026): the Act was drafted <em>"with narrowly defined terms to constrain executive power in response to historical abuses."</em> They used it anyway.
+  </div>
+  <aside class="notes">
+    Hit: "After the 1970 October Crisis, Parliament wrote the Emergencies Act specifically to prevent a future government from doing what Trudeau Sr. did. Narrowly defined terms. Charter compliance required. Tommy Douglas opposed the War Measures Act in 1970 and was vilified for it. In 2022, the government used the successor act, and two federal courts said it was unconstitutional. Tommy Douglas was right. It just took 54 years for the courts to say it."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 16: MEDICAL FREEDOM -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">MEDICAL FREEDOM — MANDATE, MAID, CONTRADICTION</div>
+  <div class="headline">
+    "My body, my choice" — unless you declined the vaccine.<br>
+    <span class="text-red">"Do we tolerate these people?"</span>
+  </div>
+  <div class="grid-2" style="margin: 20px 0;">
+    <div class="panel-said">
+      <h3 style="color: var(--green-ironic); font-size: 0.85em;">THEY SAID</h3>
+      <ul class="detail" style="margin-top: 10px; padding-left: 16px;">
+        <li>Bodily autonomy</li>
+        <li>MAID rights — dignity and choice</li>
+        <li>"Respect for individual rights"</li>
+      </ul>
+    </div>
+    <div class="panel-did">
+      <h3 style="color: var(--red); font-size: 0.85em;">THEY DID</h3>
+      <ul class="detail" style="margin-top: 10px; padding-left: 16px;">
+        <li>Mandates for transport + federal workers</li>
+        <li>~2,000 employees on unpaid leave</li>
+        <li><em>"Do we tolerate these people?"</em></li>
+        <li>No reimbursement for lost wages</li>
+      </ul>
+    </div>
+  </div>
+  <div class="card card-red">
+    <p class="detail">
+      Trudeau, September 2021 (Quebec TV): <span class="hl-red"><em>"Do we tolerate these people?"</em></span> — referring to unvaccinated Canadians. August 2021: <em>"There will be consequences."</em> Later claimed he never forced anyone.<br><br>
+      Military Grievances External Review Committee (May 2024): CAF vaccine mandate was <em>"overbroad and disproportionate"</em> — CAF <span class="hl-red"><em>"had not fulfilled its obligation to ensure Charter rights were minimally infringed."</em></span><br><br>
+      <strong class="text-red">The precedent stands. The power to do this again was never revoked.</strong>
+    </p>
+  </div>
+  <aside class="notes">
+    Hit: "The same government that championed 'my body, my choice' for MAID told 2,000 federal workers: take the vaccine or lose your pay. When asked about unvaccinated Canadians on national television, the Prime Minister said — and this is a direct quote — 'Do we tolerate these people?' Then later claimed he never forced anyone. The Military Grievances Committee found the CAF mandate was 'overbroad and disproportionate' and that Charter rights were not minimally infringed."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 17: MEDIA FUNDING -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">MEDIA FUNDING AND PRESS FREEDOM</div>
+  <div class="headline">
+    They didn't need censorship. They built financial dependency.<br>
+    <span class="text-red">The news you read is funded by the government you're reading about.</span>
+  </div>
+  <div class="grid-2">
+    <div>
+      <div class="card card-gold mb-1">
+        <h3 style="font-size: 0.8em;">LAYERED MEDIA SUBSIDIES — ~$170M/YEAR</h3>
+        <p class="detail mt-1">
+          &bull; CJLTC: raised 25% &rarr; 35% of salary (no public debate)<br>
+          &bull; Local Journalism Initiative: $19.6M/yr<br>
+          &bull; Canada Periodical Fund<br>
+          &bull; Digital news subscription tax credit<br>
+          &bull; C-18 Google fund: $100M/yr<br>
+          &bull; CBC appropriation: ~$1.06B &rarr; ~$1.38B<br><br>
+          Originally "temporary 5-year measure" in 2019. <span class="hl-red">Renewed 2023 without the expiry.</span>
+        </p>
+      </div>
+      <div class="card">
+        <p class="detail">
+          <strong>76%</strong> of Canadians agree subsidies could affect journalistic objectivity.<br>
+          <strong>73%</strong> agree it makes it harder to hold government to account.
+        </p>
+      </div>
+    </div>
+    <div>
+      <div style="text-align: center; margin: 20px 0;">
+        <p class="mono text-gold" style="font-size: 0.8em;">REPORTERS WITHOUT BORDERS RANKING</p>
+        <div style="display: flex; align-items: center; justify-content: center; gap: 30px; margin: 20px 0;">
+          <div>
+            <p class="big-num ice" style="font-size: 2.8em;">14th</p>
+            <p class="big-num-label">2024</p>
+          </div>
+          <span style="font-size: 2em; color: var(--red);">&rarr;</span>
+          <div>
+            <p class="big-num red" style="font-size: 2.8em;">21st</p>
+            <p class="big-num-label">2025</p>
+          </div>
+        </div>
+        <p class="text-red mono" style="font-size: 0.75em; font-weight: 700;">7-POSITION DROP IN ONE YEAR</p>
+        <p class="detail mt-1">Economic subcategory: <strong>24th globally</strong>.</p>
+      </div>
+      <div class="card card-red">
+        <p class="detail">
+          Two journalists arrested covering protests: Amber Bracken (2021), Brandi Morin (2024). C-18 distribution formula concentrates funding in Postmedia, Torstar, Globe — <span class="hl-red">independent outlets with fewer than 2 journalists ineligible</span>.
+        </p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "Five overlapping subsidy programs pumping ~$170 million a year into legacy media. CBC appropriation up to $1.38 billion. The C-18 formula literally distributes money based on journalist headcount — which means it goes to Postmedia, Torstar, the Globe. Independent outlets with fewer than 2 journalists? Ineligible. Three-quarters of Canadians agree this compromises objectivity. And look at the press freedom ranking: 14th to 21st in a single year. More money in, less freedom out."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 18: THE DEPENDENCY MACHINE -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE DEPENDENCY MACHINE</div>
+  <div class="headline">
+    Create the crisis. Sell the solution.<br>
+    <span class="text-red">They broke it. They "fixed" it. Now you can't afford to vote them out.</span>
+  </div>
+  <div style="margin: 20px 0;">
+    <div class="flow mb-1">
+      <span class="flow-box fb-red">Carbon tax up</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-red">Housing +47%</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-red">Wages flat</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-gold">Two-income mandatory</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-gold">Childcare demand spikes</span>
+    </div>
+    <div style="text-align: center; font-size: 2em; color: var(--red); margin: 10px 0;">&#8595;</div>
+    <div class="flow" style="justify-content: center;">
+      <span class="flow-box fb-green" style="font-size: 0.85em; padding: 12px 20px;">Government announces $10/day childcare</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-green" style="font-size: 0.85em; padding: 12px 20px;">Government takes credit</span>
+      <span class="flow-arrow">&rarr;</span>
+      <span class="flow-box fb-red" style="font-size: 0.85em; padding: 12px 20px;">Votes secured</span>
+    </div>
+  </div>
+  <div class="grid-2 mt-2">
+    <div class="card card-gold">
+      <p class="detail">
+        <strong class="text-gold">The pattern:</strong><br>
+        &bull; Expand TFW &rarr; suppress wages<br>
+        &bull; Escalate immigration &rarr; compress housing<br>
+        &bull; Carbon tax &rarr; raise energy costs<br>
+        &bull; Then announce subsidies for the burden their policies created<br><br>
+        <strong>Each subsidy creates a constituency that depends on the government continuing the subsidy — which means voting for the government that provides it.</strong>
+      </p>
+    </div>
+    <div class="card">
+      <p class="detail">
+        <strong>Childcare reality check:</strong><br>
+        Toronto infant care pre-program: ~$1,948/mo ($23,376/yr)<br>
+        Toronto infant care 2024-25: ~$1,774/mo ($21,288/yr)<br><br>
+        Still more than <strong>double</strong> the "$10/day" headline outside subsidized spots. Waitlists have grown as demand outpaced licensed capacity.<br><br>
+        <span class="hl-gold">The solution is real. So is the role government played in creating the need.</span>
+      </p>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "Here's the machine. Step 1: expand TFWs, suppress wages. Step 2: flood immigration, crush housing. Step 3: carbon tax, raise energy costs. Result: both parents MUST work. Step 4: announce $10/day childcare and take credit for solving the problem YOU created. Every subsidy creates a constituency that depends on you. Every dependency is a vote in the next election. The solution is real — but so is the role they played in creating the need."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 19: BROKEN PROMISES -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">BROKEN PROMISES — PLATFORM VS. REALITY</div>
+  <div class="headline">
+    They looked you in the eye and lied.<br>
+    <span class="text-red">Here's the list.</span>
+  </div>
+  <table style="margin: 20px 0;">
+    <thead>
+      <tr><th>THE RECEIPT</th><th>THEY SAID</th><th style="color: var(--red);">THEY DID</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Electoral reform</strong></td><td>"2015 will be the last FPTP election"</td><td class="col-red">Abandoned 2017 — in a process they controlled</td></tr>
+      <tr><td><strong>Balanced budget</strong></td><td>Back to balance by 2019</td><td class="col-red">2019-20 deficit: $39.4B (pre-COVID)</td></tr>
+      <tr><td><strong>Process reform</strong></td><td>No omnibus bills / prorogation</td><td class="col-red">Used both once in office</td></tr>
+      <tr><td><strong>Transparency</strong></td><td>"Open by default"</td><td class="col-red">Gagged the PBO, cited "confidentiality" at CIB</td></tr>
+      <tr><td><strong>Ethics</strong></td><td>"Highest ethical standards"</td><td class="col-red">Two ethics violations, WE, ArriveCAN</td></tr>
+    </tbody>
+  </table>
+  <div class="card card-gold mt-1">
+    <h3 style="font-size: 0.8em;">THE FLOOR CROSSINGS — THEY SAID / THEY DID</h3>
+    <p class="detail mt-1">
+      <strong>Chris d'Entremont</strong> (CPC MP), September 2025: Liberals represent <em>"out-of-control spending and massive deficits."</em> <span class="hl-red">Crossed to the Liberals nine weeks later.</span><br><br>
+      <strong>Michael Ma</strong> (CPC MP), December 2, 2025: Called Liberal government a <em>"feudal regime."</em> <span class="hl-red">Crossed to the Liberals nine days later.</span>
+    </p>
+  </div>
+  <aside class="notes">
+    Hit: "Electoral reform — the single biggest promise of 2015 — abandoned in a process THEY controlled. Balanced budgets — every year a deficit, even before COVID. Open by default — they gagged the PBO and hid infrastructure bank data behind 'confidentiality.' Highest ethical standards — two ethics violations by the PM personally. And the floor crossings? A Conservative MP called them a feudal regime on December 2nd. Nine days later he joined them."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 20: BLAME TRUMP (NEW) -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">BLAME TRUMP — THE DEFLECTION PATTERN</div>
+  <div class="headline">
+    The economy collapsed before any tariff hit.<br>
+    <span class="text-red">They blamed Trump for problems they created.</span>
+  </div>
+  <div class="grid-2">
+    <div>
+      <div class="card card-red mb-1">
+        <h3 style="font-size: 0.8em; color: var(--red);">THE TIMELINE</h3>
+        <p class="detail mt-1">
+          <strong>GDP per capita decline:</strong> 6 consecutive quarters as of Q3 2024<br><br>
+          <strong>Trump tariffs announced:</strong> February 1, 2025<br><br>
+          <span class="hl-red">The decline was documented more than a year before any tariff.</span><br><br>
+          Canada fell below OECD average for the <strong>first time in 25 years</strong> — pre-tariff. Budget 2025 admits productivity growth was 0.3%/yr for the past decade.
+        </p>
+      </div>
+      <div class="quote" style="font-size: 0.85em;">
+        "The anxiety towards the Trump administration is clouding the enormity of the home-grown problems facing our country. These economic challenges existed well before President Trump took office."
+        <div class="quote-attr">— Fraser Institute, 2025</div>
+      </div>
+    </div>
+    <div>
+      <div class="card card-gold mb-1">
+        <h3 style="font-size: 0.8em;">THE DEFLECTION</h3>
+        <p class="detail mt-1">
+          Trudeau called tariffs <em>"designed to prompt a total collapse of the Canadian economy."</em><br><br>
+          The tariffs are real and damaging. <strong>But the decline started years before Trump announced them.</strong><br><br>
+          The government used an external threat to avoid accountability for a decade of structural failure.
+        </p>
+      </div>
+      <div class="card card-ice">
+        <h3 style="font-size: 0.8em; color: var(--ice);">FREELAND'S EXIT</h3>
+        <p class="detail mt-1">
+          Chrystia Freeland resigned December 2024. Her letter warned Canada needed to <em>"keep our fiscal powder dry"</em> and stop <span class="hl-red"><em>"costly political gimmicks."</em></span><br><br>
+          <strong>The Finance Minister called her own government's policies "costly political gimmicks" on her way out the door.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "Six consecutive quarters of GDP per capita decline — documented by Statistics Canada in April 2024. Trump's tariffs were announced February 2025. That's a FULL YEAR of economic decline before a single tariff hit. Canada fell below the OECD average for the first time in 25 years — before tariffs. The Fraser Institute said it plainly: 'These economic challenges existed well before President Trump took office.' And when Chrystia Freeland — the FINANCE MINISTER — resigned, she called the government's own policies 'costly political gimmicks.' The tariffs are real. But they didn't create this mess. A decade of structural failure did."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 21: SAME PARTY, NEW SALESMAN -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">SAME PARTY. NEW SALESMAN. SAME DIRECTION.</div>
+  <div class="headline">
+    Mark Carney became Prime Minister in March 2025.<br>
+    <span class="text-red">The salesman changed. The receipts keep coming.</span>
+  </div>
+  <table style="margin: 15px 0;">
+    <thead>
+      <tr><th>POLICY</th><th>POILIEVRE SAID (DATE)</th><th style="color: var(--red);">CARNEY DID IT (DATE)</th><th>GAP</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Carbon tax</td><td>"Axe the Tax" — Jan 2023</td><td class="col-red">Zeroed — Mar 14, 2025</td><td>~2 years</td></tr>
+      <tr><td>GST on homes</td><td>Announced — fall 2024</td><td class="col-red">Bill C-4 tabled — Sep 2025</td><td>~1 year</td></tr>
+      <tr><td>Immigration cap</td><td>Called for caps — 2023</td><td class="col-red">Capped TFW/students — 2025</td><td>~2 years</td></tr>
+    </tbody>
+  </table>
+  <div class="grid-2 mt-1">
+    <div class="card card-red">
+      <h3 style="font-size: 0.8em; color: var(--red);">THE BROOKFIELD CONFLICT</h3>
+      <p class="detail mt-1">
+        Brookfield Renewable: <strong>$138B</strong> in assets under management<br>
+        Carney options in blind trust: <strong>$6.8M</strong><br>
+        Ethics screen: future comp tied to Brookfield performance<br>
+        WEF Board of Trustees: November 2019 &rarr; present<br><br>
+        <span class="hl-red">He sets YOUR energy policy. His wealth grows when energy costs go up. You pay more. He earns more.</span>
+      </p>
+    </div>
+    <div class="card card-gold">
+      <h3 style="font-size: 0.8em;">THE PATTERN</h3>
+      <p class="detail mt-1">
+        Every populist policy Carney adopted was <strong>Poilievre's position first</strong> — carbon tax, GST on homes, immigration caps.<br><br>
+        He opposed them when Poilievre proposed them. Adopted them when polls showed they were popular.<br><br>
+        <span class="hl-gold">The platform shifted. The power structure didn't.</span> Same party. Same caucus. Same bills (C-9, C-22). Same direction.
+      </p>
+    </div>
+  </div>
+  <aside class="notes">
+    Hit: "New leader. Same party. Same caucus. Same bills. Every popular policy Carney adopted — axing the carbon tax, GST relief on homes, immigration caps — was Poilievre's position first. Carney opposed them, then adopted them when the polls moved. And his personal conflict of interest? $6.8 million in Brookfield options in a blind trust. Brookfield is the largest renewable energy investor in Canada. Carney sets the energy policy. His wealth grows when his policy works. Same party, same direction, bigger conflict of interest."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 22: INTERNATIONAL PARALLELS -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">INTERNATIONAL PARALLELS — WHERE THIS ROAD LEADS</div>
+  <div class="headline">
+    This isn't theory. Other countries ran this exact playbook.<br>
+    <span class="text-red">Here's where they ended up.</span>
+  </div>
+  <div class="grid-3" style="margin: 20px 0;">
+    <div class="card card-red">
+      <h3 style="color: var(--red); font-size: 0.85em;">NEW ZEALAND</h3>
+      <p class="big-num red" style="font-size: 1.8em; margin: 10px 0;">1M left</p>
+      <p class="detail">
+        Ardern government (2017-2023). High immigration, KiwiBuild failed, GDP/capita fell among sharpest in advanced world. <strong>20% of resident population</strong> lived outside the country. PM Luxon: <em>"sugar rush economics."</em>
+      </p>
+    </div>
+    <div class="card card-gold">
+      <h3 style="color: var(--gold); font-size: 0.85em;">SWEDEN</h3>
+      <p class="big-num gold" style="font-size: 1.8em; margin: 10px 0;">+450%</p>
+      <p class="big-num-label">rental waitlist growth</p>
+      <p class="detail mt-1">
+        163,000 asylum seekers in 2015. Stockholm waitlists: 100K &rarr; 550K. Fatal shootings doubled. Sweden's own Social Democrats admitted <em>"two decades of excessive immigration produced a national crisis."</em>
+      </p>
+    </div>
+    <div class="card card-ice">
+      <h3 style="color: var(--ice); font-size: 0.85em;">UNITED KINGDOM</h3>
+      <p class="big-num ice" style="font-size: 1.8em; margin: 10px 0;">0.5%</p>
+      <p class="big-num-label">GDP/hr growth (2010-2022)</p>
+      <p class="detail mt-1">
+        Second-slowest in G7. Same model as Canada: labour supply substitutes for capital investment. UK ran it for two decades. <strong>Still paying for it.</strong>
+      </p>
+    </div>
+  </div>
+  <p class="text-center text-red mono fw-800" style="font-size: 1em; margin-top: 20px;">
+    CANADA IS ON THIS ROAD RIGHT NOW.
+  </p>
+  <aside class="notes">
+    Hit: "This is not speculation. New Zealand ran the same playbook — high immigration, no housing — and a million residents left. That's 20% of the country. Sweden took 163,000 asylum seekers in one year — rental waitlists exploded 450%, fatal shootings doubled. Their own Social Democrats admitted it was a national crisis. The UK ran the cheap-labour model for two decades — GDP per hour growth: 0.5%, second-worst in the G7. Canada is on the same path. We just started later."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 23: THE FREEDOM SCORECARD (NEW) -->
+<!-- ============================================================ -->
+<section>
+  <div class="section-bar">THE FREEDOM SCORECARD — THE BOILING FROG</div>
+  <div class="headline">
+    Each step was small. Each step was "reasonable."<br>
+    <span class="text-red">Stack them and look at where you're standing.</span>
+  </div>
+  <div style="max-width: 750px; margin: 10px auto;">
+    <div class="timeline-item">
+      <span class="timeline-year">2017</span>
+      <div class="timeline-bar" style="width: 38px;"></div>
+      <span class="timeline-label">Electoral reform killed — kept FPTP that advantages incumbents</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">2019</span>
+      <div class="timeline-bar" style="width: 63px;"></div>
+      <span class="timeline-label">AG independence undermined — SNC-Lavalin. PM found in violation of ethics law. <strong>Second time.</strong></span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">2020</span>
+      <div class="timeline-bar" style="width: 100px;"></div>
+      <span class="timeline-label">Vaccine mandates. Travel bans. <em>"Do we tolerate these people?"</em> ~2,000 workers on unpaid leave.</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">2022</span>
+      <div class="timeline-bar" style="width: 163px;"></div>
+      <span class="timeline-label"><strong>Emergencies Act.</strong> 257 bank accounts frozen — no court order. Ruled <strong class="text-red">unconstitutional</strong> by two courts.</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">2023</span>
+      <div class="timeline-bar" style="width: 225px;"></div>
+      <span class="timeline-label"><strong>C-11</strong> (content regulation), <strong>C-18</strong> (news payments to allies), <strong>C-21</strong> (firearms expansion). Three bills, one spring.</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">2024</span>
+      <div class="timeline-bar" style="width: 275px;"></div>
+      <span class="timeline-label"><strong>C-63</strong> proposed: anonymous speech complaints, pre-crime peace bonds, life sentences. 40+ groups opposed. Died on prorogation.</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">2025</span>
+      <div class="timeline-bar" style="width: 331px;"></div>
+      <span class="timeline-label"><strong>C-9:</strong> AG consent removed for hate charges. Definition of hatred <strong class="text-red">lowered</strong>. Sentencing escalation to <strong>life</strong>.</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-year">2026</span>
+      <div class="timeline-bar" style="width: 400px;"></div>
+      <span class="timeline-label"><strong>C-22:</strong> Lawful Access. Metadata retention. Geographic tracking. <em>"Dangerous backdoor surveillance."</em></span>
+    </div>
+  </div>
+  <p class="text-center text-red mono fw-800 mt-1" style="font-size: 0.9em;">
+    EACH STEP WAS "REASONABLE." LOOK WHERE YOU'RE STANDING NOW.
+  </p>
+  <aside class="notes">
+    Hit: "Look at the bars. Each year, wider. Each step, 'reasonable.' Electoral reform dies — keeps the system that benefits them. AG independence undermined. Vaccine mandates. Bank accounts frozen without court orders — ruled unconstitutional. Three censorship bills in one spring. Pre-crime peace bonds proposed. Hate speech definition lowered. AG consent for charges removed. Lawful access. Metadata retention. Surveillance. No single step was dramatic enough to trigger the alarm. That's how it works. That's the boiling frog. Look at where you're standing now. Look at the direction. It has not changed once in ten years."
+  </aside>
+</section>
+
+<!-- ============================================================ -->
+<!-- SLIDE 24: THE CLOSE -->
+<!-- ============================================================ -->
+<section>
+  <div style="margin-top: 30px;">
+    <p style="font-size: 1.1em; font-weight: 600; color: var(--white-dim); line-height: 1.6; margin-bottom: 30px; max-width: 700px; margin-left: auto; margin-right: auto;">
+      They doubled your debt. Crashed your economy.<br>
+      Priced your kids out of housing. Froze bank accounts without a judge.<br>
+      Proposed laws to arrest you for what you say.<br>
+      And when you asked questions, <span class="text-red" style="font-weight: 800;">they called you a racist.</span>
+    </p>
+  </div>
+  <div style="margin: 30px 0;">
+    <p style="font-size: 2em; font-weight: 800; color: #fff; line-height: 1.3;">
+      The receipts are real. The pattern is clear.
+    </p>
+    <p style="font-size: 1.8em; font-weight: 800; line-height: 1.3;">
+      <span class="text-red">The only thing they're counting on is your silence.</span>
+    </p>
+  </div>
+  <div style="max-width: 600px; margin: 20px auto;">
+    <div class="card" style="border: 1px solid rgba(212,168,67,0.3);">
+      <p class="detail text-center">
+        Every number came from their own institutions. Their own courts.<br>
+        Their own watchdogs. Their own data.<br><br>
+        <strong>Share this. Read the bills yourself. Talk to your neighbours.<br>
+        Because if you stay quiet, they win.<br>
+        <span class="text-red">And the next receipt is yours.</span></strong>
+      </p>
+    </div>
+  </div>
+  <div class="sources" style="justify-content: center; margin-top: 20px;">
+    <span class="source-badge">Parliament.ca</span>
+    <span class="source-badge">Statistics Canada</span>
+    <span class="source-badge">PBO</span>
+    <span class="source-badge">Auditor General</span>
+    <span class="source-badge">Ethics Commissioner</span>
+    <span class="source-badge">Federal Courts</span>
+    <span class="source-badge">RSF</span>
+    <span class="source-badge">Food Banks Canada</span>
+    <span class="source-badge">OECD</span>
+  </div>
+  <div style="margin-top: 30px;">
+    <p class="mono text-dim" style="font-size: 0.7em;">OPERATION THE RECEIPTS &bull; 2026 &bull; BRUCE JOSEPH</p>
+  </div>
+  <aside class="notes">
+    Close: "Everything I showed you tonight came from their own institutions. Not opinion. Not partisan media. Their courts, their watchdogs, their data. And the direction hasn't changed once in ten years. It just keeps going. The only thing standing between where we are now and where the UK is — 65,000 speech arrests — is you. Share this. Send it to someone. Talk about it at the dinner table. Read the bills yourself. Because they are counting on you staying quiet. Don't."
+  </aside>
+</section>
+
+</div><!-- /slides -->
+</div><!-- /reveal -->
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/plugin/notes/notes.js"></script>
+<script>
+Reveal.initialize({
+  hash: true,
+  slideNumber: 'c/t',
+  showSlideNumber: 'all',
+  transition: 'fade',
+  transitionSpeed: 'fast',
+  backgroundTransition: 'fade',
+  center: true,
+  width: 1280,
+  height: 720,
+  margin: 0.06,
+  plugins: [ RevealNotes ],
+  keyboard: {
+    // Custom: press 'b' to black out screen (built-in)
+  }
+});
+</script>
+</body>
+</html>
